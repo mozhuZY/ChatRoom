@@ -24,8 +24,11 @@ public class Server{
 	private UserSql usersql;
 	//单个核心的线程池大小
 	private static final int SINGLECORE_POOLSIZE = 4;
+	//用户连接数
+	private static int userNum;
 	
 	public Server(int port) {
+		userNum = 0;
 		try {
 			server = new ServerSocket(port);
 		} catch (IOException e) {
@@ -56,10 +59,19 @@ public class Server{
 				socket = server.accept();
 				thread = new HandleClient(socket);
 				threadPool.execute(thread);
+				userNum++;
 				System.out.println("ip：" + socket.getLocalAddress().toString() + " 已接入");
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
 		}
+	}
+	
+	public static int getUserNum() {
+		return userNum;
+	}
+	
+	public static void setUserNum(int num) {
+		Server.userNum = num;
 	}
 }

@@ -188,6 +188,7 @@ public class HandleClient extends Thread{
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+		Server.setUserNum(Server.getUserNum() - 1);
 	}
 	
 	/**
