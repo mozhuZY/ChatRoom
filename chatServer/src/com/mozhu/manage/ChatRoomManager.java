@@ -84,7 +84,8 @@ public class ChatRoomManager implements Runnable{
 				//检测聊天室
 				for(int i = 0; i < roomList.size(); i++) {
 					ChatRoom temp = roomList.get(i);
-					if(temp.getMemberNum() == 0) {
+					//如果聊天室人数为0，且该聊天室为非静态聊天室，就将它清除
+					if(temp.getMemberNum() == 0 && !temp.getIsStatic()) {
 						if(temp.isActivation) {
 							deleteChatRoom(temp);
 							System.out.println("ChatRoom \"" + temp.getName() + "\"has been closed");

@@ -182,11 +182,16 @@ public class MainScreen extends JFrame implements ActionListener{
 		case "oCreate"://创建聊天室
 			/*后续应该加上检测聊天室是否重名*/
 			String name = JOptionPane.showInputDialog(null, "请输入聊天室名称");
+			String value = "1";
+			int isStatic = JOptionPane.showConfirmDialog(this, "是否创建静态聊天室？", "聊天室性质", JOptionPane.YES_NO_OPTION);
+			if(isStatic == JOptionPane.YES_OPTION) {
+				value = "0";
+			}
 			ArrayList<String> rList = new ArrayList<String>();
 			if(name == null) {
 				return;
 			}
-			client.send("5 " + Client.replaceString(name));
+			client.send("5 " + Client.replaceString(name) + " " + Client.replaceString(value));
 			//获取JList中的所有选项值
 			for(int i = 0; i < list.getModel().getSize(); i++) {
 				rList.add(list.getModel().getElementAt(i));

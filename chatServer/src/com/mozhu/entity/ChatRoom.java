@@ -20,16 +20,19 @@ public class ChatRoom {
 	private User manager;
 	private int memberNum;
 	public boolean isActivation;
+	public final boolean isStatic;
 	
 	public ChatRoom() {
 		memList = new HashMap<User, HandleClient>();
+		this.isStatic = false;
 	}
 	
-	public ChatRoom(String name, User manager) {
+	public ChatRoom(String name, User manager, boolean isStatic) {
 		this.name = name;
 		this.manager = manager;
 		this.memberNum = 0;
 		this.isActivation = false;
+		this.isStatic = isStatic;
 		this.memList = new HashMap<User, HandleClient>();
 	}
 	
@@ -127,5 +130,9 @@ public class ChatRoom {
 	
 	public int getMemberNum() {
 		return memberNum;
+	}
+	
+	public boolean getIsStatic() {
+		return isStatic;
 	}
 }

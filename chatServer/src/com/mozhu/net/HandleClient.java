@@ -136,8 +136,14 @@ public class HandleClient extends Thread{
 				room = null;
 				break;
 			case 5://创建聊天室
-				manager.addChatRoom(new ChatRoom(clientData[1], user));
-				System.out.println("聊天室" + "\"" + clientData[1] + "\"已被" + user.getName() + "(" + socket.getInetAddress().toString() + ")创建");
+				if(Integer.valueOf(clientData[2]) == 1) {
+					manager.addChatRoom(new ChatRoom(clientData[1], user, false));
+					System.out.println("动态聊天室" + "\"" + clientData[1] + "\"已被" + user.getName() + "(" + socket.getInetAddress().toString() + ")创建");
+				} else {
+					manager.addChatRoom(new ChatRoom(clientData[1], user, true));
+					System.out.println("静态聊天室" + "\"" + clientData[1] + "\"已被" + user.getName() + "(" + socket.getInetAddress().toString() + ")创建");
+				}
+				
 				break;
 			case 6://刷新聊天室列表
 				ArrayList<String> roomlist = manager.getChatRoomNameList();
