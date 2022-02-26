@@ -16,7 +16,7 @@ public class Sql {
 	protected PreparedStatement stm;
 	protected ResultSet rs;
 	
-	private static String url = "jdbc:mysql://localhost:3306/user";
+	private static String url = "jdbc:mysql://localhost:3306/chat";
 	private static String username = "root";
 	private static String password = "123456";
 	
@@ -25,9 +25,7 @@ public class Sql {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 			con = DriverManager.getConnection(url, username, password);
-		}catch(ClassNotFoundException e) {
-			e.printStackTrace();
-		}catch(SQLException e) {
+		}catch(ClassNotFoundException | SQLException e) {
 			e.printStackTrace();
 		}
 	}

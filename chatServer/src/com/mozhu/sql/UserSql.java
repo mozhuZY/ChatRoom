@@ -28,22 +28,22 @@ public class UserSql extends Sql{
 	 * @return 查询到的用户列表
 	 */
 	public ArrayList<User> query(String username, int account, int mode) {
-		ArrayList<User> r = new ArrayList<User>();
+		ArrayList<User> r = new ArrayList<>();
 		try {
 			stm = con.prepareStatement(querySql);
-			switch(mode) {
-			case 0://用户名
-				stm.setString(1, username);
-				stm.setInt(2, -1);
-				break;
-			case 1://账号
-				stm.setString(1, "");
-				stm.setInt(2, account);
-				break;
-			case 2://用户名+账号
-				stm.setString(1, username);
-				stm.setInt(2, account);
-				break;
+			switch (mode) {
+				case 0 -> {//用户名
+					stm.setString(1, username);
+					stm.setInt(2, -1);
+				}
+				case 1 -> {//账号
+					stm.setString(1, "");
+					stm.setInt(2, account);
+				}
+				case 2 -> {//用户名+账号
+					stm.setString(1, username);
+					stm.setInt(2, account);
+				}
 			}
 			rs = stm.executeQuery();
 			//保存查询结果
@@ -56,10 +56,11 @@ public class UserSql extends Sql{
 		}
 		return r;
 	}
-	
+
 	/**
-	 * 添加用户
-	 * @param user 用户
+	 * 添加账号
+	 * @param nickname 昵称
+	 * @param password 密码
 	 * @return 是否添加成功
 	 */
 	public boolean add(String nickname, String password) {
@@ -127,7 +128,7 @@ public class UserSql extends Sql{
 	
 	/**
 	 * 生成账号
-	 * @return
+	 * @return 生成的账号
 	 */
 	private int generateAccount() {
 		int account = 0;
@@ -139,7 +140,7 @@ public class UserSql extends Sql{
 			}
 				
 		}catch(SQLException e) {
-			e.printStackTrace();;
+			e.printStackTrace();
 		}
 		return account + 1;
 	}

@@ -2,29 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d9b5998-7f21-458f-a242-2425f73605be" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mozhu/entity/RoomConfiger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mozhu/ui/ChatRoomConfigUi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mozhu/util/JListUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/bin/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/mozhu/net/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mozhu/net/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/mozhu/ui/MainScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mozhu/ui/MainScreen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/mozhu/ui/MultPeopleChatScreen$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mozhu/ui/MultPeopleChatScreen$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/mozhu/ui/MultPeopleChatScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mozhu/ui/MultPeopleChatScreen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mozhu/net/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mozhu/net/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mozhu/ui/MainScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mozhu/ui/MainScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mozhu/ui/MultPeopleChatScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mozhu/ui/MultPeopleChatScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chatServer/bin/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chatServer/bin/com/mozhu/entity/ChatRoom.class" beforeDir="false" afterPath="$PROJECT_DIR$/../chatServer/bin/com/mozhu/entity/ChatRoom.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chatServer/bin/com/mozhu/manage/ChatRoomManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../chatServer/bin/com/mozhu/manage/ChatRoomManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chatServer/bin/com/mozhu/net/HandleClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../chatServer/bin/com/mozhu/net/HandleClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chatServer/bin/com/mozhu/net/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/../chatServer/bin/com/mozhu/net/Server.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chatServer/src/com/mozhu/entity/ChatRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chatServer/src/com/mozhu/entity/ChatRoom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chatServer/src/com/mozhu/net/HandleClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chatServer/src/com/mozhu/net/HandleClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatServer/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatServer/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatServer/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatServer/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatServer/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatServer/chatServer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +33,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../chatServer" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -59,6 +45,7 @@
       <option name="presentableId" value="Default" />
       <updated>1645883399026</updated>
       <workItem from="1645883400713" duration="828000" />
+      <workItem from="1645887326702" duration="476000" />
     </task>
     <servers />
   </component>
@@ -75,6 +62,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
