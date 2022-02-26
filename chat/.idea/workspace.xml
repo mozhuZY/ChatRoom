@@ -1,16 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d9b5998-7f21-458f-a242-2425f73605be" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chatServer/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chatServer/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chatServer/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chatServer/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chatServer/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chatServer/chatServer.iml" afterDir="false" />
+    <list default="true" id="cb6226a0-664f-4622-9cb2-f47828fd1d04" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatServer/src/mysql-connector-java-5.1.36-bin.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/MainSystem/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/MainSystem/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mozhu/entity/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mozhu/entity/Message.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mozhu/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mozhu/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mozhu/net/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mozhu/net/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mozhu/ui/HintUi.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mozhu/ui/HintUi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mozhu/ui/LoginUi$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mozhu/ui/LoginUi$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mozhu/ui/LoginUi$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mozhu/ui/LoginUi$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mozhu/ui/LoginUi$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mozhu/ui/LoginUi$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mozhu/ui/LoginUi.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mozhu/ui/LoginUi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mozhu/ui/MainScreen$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mozhu/ui/MainScreen$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mozhu/ui/MainScreen$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mozhu/ui/MainScreen$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mozhu/ui/MainScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mozhu/ui/MainScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mozhu/ui/MessageList.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mozhu/ui/MessageList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mozhu/ui/MessageUi.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mozhu/ui/MessageUi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mozhu/ui/MultPeopleChatScreen$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mozhu/ui/MultPeopleChatScreen$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mozhu/ui/MultPeopleChatScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mozhu/ui/MultPeopleChatScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/mozhu/ui/RegisteUi.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mozhu/ui/RegisteUi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainSystem/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainSystem/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatServer/bin/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatServer/bin/MainSystem/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../chatServer/bin/MainSystem/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatServer/bin/com/mozhu/entity/ChatRoom.class" beforeDir="false" afterPath="$PROJECT_DIR$/../chatServer/bin/com/mozhu/entity/ChatRoom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatServer/bin/com/mozhu/entity/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/../chatServer/bin/com/mozhu/entity/Message.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatServer/bin/com/mozhu/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../chatServer/bin/com/mozhu/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatServer/bin/com/mozhu/manage/ChatRoomManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../chatServer/bin/com/mozhu/manage/ChatRoomManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatServer/bin/com/mozhu/net/HandleClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../chatServer/bin/com/mozhu/net/HandleClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatServer/bin/com/mozhu/net/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/../chatServer/bin/com/mozhu/net/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatServer/bin/com/mozhu/sql/Sql.class" beforeDir="false" afterPath="$PROJECT_DIR$/../chatServer/bin/com/mozhu/sql/Sql.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatServer/bin/com/mozhu/sql/UserSql.class" beforeDir="false" afterPath="$PROJECT_DIR$/../chatServer/bin/com/mozhu/sql/UserSql.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatServer/bin/mysql-connector-java-5.1.20-bin.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatServer/chatServer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../chatServer/chatServer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatServer/src/com/mozhu/sql/Sql.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chatServer/src/com/mozhu/sql/Sql.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatServer/src/mysql-connector-java-5.1.20-bin.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,51 +50,51 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="25eN3tJRosVqA627veRjnoUI6nC" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="25eYndAV9PkmloWAqgCZibgRzJL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../chatServer" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainSystem.Main" />
+      <module name="chat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MainSystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4d9b5998-7f21-458f-a242-2425f73605be" name="Changes" comment="" />
-      <created>1645883399026</created>
+      <changelist id="cb6226a0-664f-4622-9cb2-f47828fd1d04" name="Changes" comment="" />
+      <created>1645889187149</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1645883399026</updated>
-      <workItem from="1645883400713" duration="828000" />
-      <workItem from="1645887326702" duration="476000" />
+      <updated>1645889187149</updated>
+      <workItem from="1645889188731" duration="865000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

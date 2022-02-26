@@ -18,12 +18,12 @@ public class Sql {
 	
 	private static String url = "jdbc:mysql://localhost:3306/chat";
 	private static String username = "root";
-	private static String password = "123456";
+	private static String password = "147258369asd";
 	
 	public Sql() {
 		//连接数据库
 		try {
-			Class.forName("com.mysql.jdbc.Driver");
+			Class.forName("com.mysql.cj.jdbc.Driver");
 			con = DriverManager.getConnection(url, username, password);
 		}catch(ClassNotFoundException | SQLException e) {
 			e.printStackTrace();
